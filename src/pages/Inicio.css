@@ -1,0 +1,29 @@
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    
+}
+
+.sesion{
+    display: flex;
+    text-decoration: none;
+    border: 2px solid black;
+    text-align: center;
+    padding: 2px;
+    width: 300px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 12px rgba(113, 122, 122, 0.959);
+}
+.sesion a{
+    text-decoration: none;
+    color:  black;
+    font-size: 25px;
+}
+
+.sesion:hover{
+    background-color: rgb(215, 213, 213);
+}

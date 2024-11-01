@@ -1,0 +1,33 @@
+.acerca{
+  text-align: center;
+  margin-top: 80px;
+  width: 100%;
+  
+}
+
+p{
+  text-align: left;
+  margin-top: 80px;
+}
+
+
+
+
+/*/ components/Header.js
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+function Header() {
+  return (
+    <nav style={{ textAlign: 'center', margin: '20px' }}>
+      <Link to="/">
+        <button style={{ margin: '10px', padding: '10px' }}>Login</button>
+      </Link>
+      <Link to="/register">
+        <button style={{ margin: '10px', padding: '10px' }}>Register</button>
+      </Link>
+    </nav>
+  );
+}
+
+export default Header;*/

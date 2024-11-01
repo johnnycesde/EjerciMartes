@@ -1,0 +1,16 @@
+.main{
+    text-align: center;
+}
+.servicios {
+    display: flex; 
+    gap: 20px; 
+    height: 100vh;
+  }
+  
+  .servicio {
+    border: 1px solid black; 
+    padding: 10px; 
+    flex: 1; 
+    text-align: center; 
+    height: 80%;
+  }
